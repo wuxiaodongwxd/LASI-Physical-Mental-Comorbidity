@@ -74,7 +74,7 @@ MARRIAGE_OPTIONS = [0,1]
 MARRIAGE_FMT = lambda x: 'Married' if x == 0 else "Single"
 
 PHA_OPTIONS = [0,1,2]
-PHA_FMT = lambda x: {0: "Inactive", 1: "Moderate", 2: "Activ"}[x]
+PHA_FMT = lambda x: {0: "Inactive", 1: "Moderate", 2: "Active"}[x]
 
 LIKERT5_OPTIONS = [1, 2, 3, 4, 5]
 LIKERT5_FMT = lambda x: {1: "Poor", 2: "Fair", 3: "Good", 4: "Very good", 5: "Excellent"}[x]
